@@ -1,5 +1,7 @@
-# Crie um programa que leia algo e mostre o seu tipo primitivo
-# e todas as informações possíveis sobre ele
+"""
+    Crie um programa que leia algo e mostre o seu tipo primitivo
+    e todas as informações possíveis sobre ele
+"""
 a = input("Digite algo: ")
 print("O tipo primitivo de {} é {}! ".format(a, type(a)))
 print("Só tem espaços? ", a.isspace())
